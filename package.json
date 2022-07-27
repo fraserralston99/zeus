@@ -3,6 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/lab": "^5.0.0-alpha.92",
+    "@myetherwallet/mewconnect-web-client": "^2.2.0-beta.16",
+    "@rarible/connector": "^0.9.12",
+    "@rarible/connector-beacon": "^0.9.12",
+    "@rarible/connector-fcl": "^0.9.12",
+    "@rarible/connector-fortmatic": "^0.9.12",
+    "@rarible/connector-helper": "^0.9.13",
+    "@rarible/connector-iframe": "^0.9.12",
+    "@rarible/connector-mew": "^0.9.12",
+    "@rarible/connector-phantom": "^0.9.13",
+    "@rarible/connector-portis": "^0.9.12",
+    "@rarible/connector-solflare": "^0.9.13",
+    "@rarible/connector-torus": "^0.9.12",
+    "@rarible/connector-walletconnect": "^0.9.12",
+    "@rarible/connector-walletlink": "^0.9.12",
+    "@rarible/types": "^0.9.3",
+    "@rixio/react": "^0.12.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -10,16 +32,33 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "es2015": "^0.0.0",
+    "ethers": "^5.6.9",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
     "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.33.1",
     "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tslib": "2.3.1",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "url": "^0.11.0",
+    "web-vitals": "^2.1.0",
+    "web3": "1.5.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +78,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@rarible/sdk": "^0.9.13",
+    "@types/react-syntax-highlighter": "^15.5.4"
   }
 }
