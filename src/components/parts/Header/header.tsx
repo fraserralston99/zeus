@@ -27,7 +27,7 @@ export function Header() {
 			<Container maxWidth={"xl"} disableGutters>
 			<Toolbar>
 					<Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-						Rarible SDK Example
+						WaxWave
 					</Typography>
 					<ConnectionStatus/>
 			</Toolbar>
